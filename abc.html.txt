@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splatoon 介紹</title>
+    <style>
+        /* 基本樣式 */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #00b3b3;
+        }
+
+        /* 標題樣式 */
+        h1 {
+            font-size: 3em;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-top: 30px;
+            color: #008080;
+        }
+
+        /* 內容區域 */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* 圖片樣式 */
+        .game-image {
+            display: block;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        /* 段落樣式 */
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* 特色區域 */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .feature {
+            width: 30%;
+            background-color: #00b3b3;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1.1em;
+        }
+
+        /* 連結樣式 */
+        a {
+            color: #00b3b3;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Splatoon 介紹</h1>
+        <img src="https://example.com/splatoon-image.jpg" alt="Splatoon Game Image" class="game-image">
+
+        <h2>什麼是 Splatoon?</h2>
+        <p>Splatoon 是任天堂推出的一款多人競技射擊遊戲，遊戲的主要特色是玩家扮演墨水怪（Inkling），用墨水作為武器進行對戰。遊戲不僅具備快節奏的射擊元素，還有富有創意的隊伍合作模式，以及獨特的戰鬥地圖和可愛的角色設計。</p>
+
+        <h2>遊戲特色</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>快節奏的對戰</h3>
+                <p>Splatoon 的對戰非常刺激，玩家需要在限定時間內，利用墨水來控制地圖，並與對手隊伍展開激烈競爭。</p>
+            </div>
+            <div class="feature">
+                <h3>隊伍合作</h3>
+                <p>遊戲中強調隊伍合作，每場對戰都需要團隊合作來達成目標。你和你的隊友需要互相配合，策略性地控制地圖。</p>
+            </div>
+            <div class="feature">
+                <h3>獨特的角色與武器</h3>
+                <p>玩家可以自訂角色外觀，並選擇不同種類的武器，包括墨槍、墨彈、墨刷等，各有不同的戰鬥風格。</p>
+            </div>
+        </div>
+
+        <h2>遊戲模式</h2>
+        <p>Splatoon 提供了多種遊戲模式，包括競技對戰（如 4v4 團隊對抗）以及玩家自訂的娛樂模式。每個模式都有其獨特的玩法，無論是喜歡競爭還是輕鬆娛樂的玩家都能找到樂趣。</p>
+
+        <h2>如何開始遊戲?</h2>
+        <p>要開始遊玩 Splatoon，你需要一台 Nintendo Switch 主機，並下載或購買遊戲。無論是單人遊玩還是與朋友組隊對戰，Splatoon 都能提供非常豐富的遊戲體驗。</p>
+
+        <h2>了解更多</h2>
+        <p>你可以訪問 <a href="https://www.nintendo.com/games/detail/splatoon-3-switch/" target="_blank">Splatoon 官方網站</a> 了解更多遊戲資訊和更新。</p>
+    </div>
+</body>
+</html>
